@@ -1,5 +1,5 @@
 # MobRob_ROS_gazebo
-ROS package for gazebo simulator for MobRob project
+ROS-Package: **mobrob_gazebo** package for MobRob (gazebo simulator)
 
 
 ## Instructions
