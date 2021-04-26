@@ -2,7 +2,7 @@
 ROS package for gazebo simulator for MobRob project
 
 
-# Instructions
+## Instructions
 
 Run following command to start gazebo with mobrob model:
 
