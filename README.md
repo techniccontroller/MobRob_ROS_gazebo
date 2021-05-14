@@ -1,6 +1,8 @@
 # MobRob_ROS_gazebo
 ROS-Package: **mobrob_gazebo** package for MobRob (gazebo simulator)
 
+![alt text](https://techniccontroller.de/wp-content/uploads/gazebo.jpg "Simulated robot model of MobRob in Gazebo")
+
 
 ## Instructions
 
