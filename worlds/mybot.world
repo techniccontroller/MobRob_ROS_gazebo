@@ -18,7 +18,7 @@
 
     <!-- wall 1 -->
     <model name='wall1'>
-      <pose>2.1 0 0.5 0 0 0</pose>
+      <pose>2.1 0 0.5 0 0 0.3</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -51,7 +51,7 @@
 
     <!-- wall 2 -->
     <model name='wall2'>
-      <pose>0 2.1 0.5 0 0 1.570796</pose>
+      <pose>0 2.1 0.5 0 0 1.4</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -75,6 +75,39 @@
           <geometry>
             <box>
               <size>0.2 4 1</size>
+            </box>
+          </geometry>
+        </visual>
+        <gravity>1</gravity>
+      </link>
+    </model>
+
+    <!-- wall 3 -->
+    <model name='wall3'>
+      <pose>-3.2 0 0.5 0 0 -0.3</pose>
+      <link name='link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.166667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.166667</iyy>
+            <iyz>0</iyz>
+            <izz>0.166667</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.2 2 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.2 2 1</size>
             </box>
           </geometry>
         </visual>
